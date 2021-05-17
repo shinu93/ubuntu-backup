@@ -1,0 +1,37 @@
+version: '3'
+services:
+   jenkins:
+     container_name: jenkins
+     user: root
+     image: jenkins/ansible
+     build:
+       context: jenkins-ansible
+     volumes:
+       - $PWD/jenkins_home:/var/jenkins_home
+     ports:
+       - '9090:8080'
+     networks:
+       - net
+   ansible-host:
+     container_name: ansible
+     image: ubuntu/ansible
+     build:
+       context: ubuntu
+     volumes:
+       - "$PWD/ansible_home:/tmp/"
+       - "$PWD/ansible_home/script.sh:/tmp/script.sh"
+     ports:
+       - '2200:22'
+     networks:
+       - net
+   db:
+     container_name: db
+     image: mysql:5.7
+     environment:
+       - "MYSQL_ROOT_PASSWORD=12345"
+     volumes:
+       - $PWD/db_data:/var/lib/mysql
+     networks:
+       - net
+networks:
+  net:

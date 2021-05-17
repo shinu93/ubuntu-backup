@@ -1,0 +1,15 @@
+Started by user [8mha:////4FbmycjeGWH2S99q3ptCnWY9CqIAcnH56lJ1TSTFaj6+AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZu/dLi1CL9xJTczDwAg9OS0cAAAAA=[0mshridhar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/my-second-job
+[SSH] commands:
+
+NAME=shridhar
+LASTNAME=chavan
+echo "Hi $NAME $LASTNAME, todays date and time is $(date)." > /tmp/remote-file
+
+[SSH] executing...
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS

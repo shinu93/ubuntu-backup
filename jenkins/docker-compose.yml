@@ -1,0 +1,31 @@
+version : '3'
+services : 
+   jenkins :
+      container_name : jenkins
+      image : jenkins/jenkins
+      volumes : 
+          - "$PWD/jenkins_home:/var/jenkins_home"
+      ports :
+          - "9090:8080"
+      networks :
+         -  net
+   remote_host:
+       container_name: remote-user
+       image: remote-host
+       build:
+          context: centos7
+       ports: 
+         - "2200:22"
+       networks:
+          - net
+   ansible_host:
+      container_name: ansible-user
+      image: ansible
+      volumes:
+          - "$PWD/ansible_file:/ansible"
+      ports:
+         - "33:22"
+      networks:
+         - net
+networks:
+   net:

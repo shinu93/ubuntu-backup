@@ -1,0 +1,14 @@
+- hosts: all
+  tasks:
+  - copy:
+      content: "hello world"
+      dest: /tmp/hello.txt
+  - copy:
+      content: "hi there"
+      dest: /tmp/hi.txt
+  - archive:
+       path:
+       - /tmp/hello.txt
+       - /tmp/hi.txt
+       dest: /tmp/archive.zip
+       format: zip

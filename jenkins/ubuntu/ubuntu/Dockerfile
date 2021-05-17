@@ -1,0 +1,41 @@
+FROM ubuntu
+
+RUN apt-get -y update && \
+    apt install -y openssh-server && \
+    apt install -y python3 python3-pip && \
+    apt install -y ansible
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN adduser ansible && \
+    echo 'ansible:12345' | chpasswd && \
+    mkdir /home/ansible/.ssh
+
+COPY id_rsa.pub /home/ansible/.ssh/authorized_keys
+
+RUN chown ansible:ansible /home/ansible/.ssh -R && \
+    chmod 600 /home/ansible/.ssh/authorized_keys
+
+RUN mkdir /var/run/sshd && \ 
+    /usr/sbin/sshd
+
+RUN echo 'root:12345' | chpasswd && \
+    mkdir /root/.ssh
+
+COPY id_rsa.pub /root/.ssh/authorized_keys
+
+RUN chown root:root /root/.ssh -R && \
+    chmod 600 /root/.ssh/authorized_keys
+
+RUN apt install -y mysql-server && \
+    apt install -y awscli
+
+RUN apt install -y vim 
+
+RUN apt install -y python
+
+RUN ssh-keygen -A
+
+EXPOSE 22
+
+CMD /usr/sbin/sshd -D

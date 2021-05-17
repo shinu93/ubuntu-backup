@@ -1,0 +1,3 @@
+- hosts: all
+  tasks:
+    - shell: echo "hello shridhar how are you and where are you now" > /tmp/ansible.txt

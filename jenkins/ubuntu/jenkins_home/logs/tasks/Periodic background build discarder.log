@@ -1,0 +1,98 @@
+Started at Sat May 15 02:43:56 UTC 2021
+Processing ansible-test
+Offering ansible-test to Project Build Discarder
+ansible-test accepted by Project Build Discarder
+Processing database
+Offering database to Project Build Discarder
+database accepted by Project Build Discarder
+Processing my-first-job
+Offering my-first-job to Project Build Discarder
+my-first-job accepted by Project Build Discarder
+Processing my-second-job
+Offering my-second-job to Project Build Discarder
+my-second-job accepted by Project Build Discarder
+Finished at Sat May 15 02:43:56 UTC 2021. 76ms
+Started at Sat May 15 03:43:56 UTC 2021
+Processing ansible-test
+Offering ansible-test to Project Build Discarder
+ansible-test accepted by Project Build Discarder
+Processing database
+Offering database to Project Build Discarder
+database accepted by Project Build Discarder
+Processing my-first-job
+Offering my-first-job to Project Build Discarder
+my-first-job accepted by Project Build Discarder
+Processing my-second-job
+Offering my-second-job to Project Build Discarder
+my-second-job accepted by Project Build Discarder
+Finished at Sat May 15 03:43:56 UTC 2021. 8ms
+Started at Sat May 15 04:43:56 UTC 2021
+Processing ansible-test
+Offering ansible-test to Project Build Discarder
+ansible-test accepted by Project Build Discarder
+Processing database
+Offering database to Project Build Discarder
+database accepted by Project Build Discarder
+Processing my-first-job
+Offering my-first-job to Project Build Discarder
+my-first-job accepted by Project Build Discarder
+Processing my-second-job
+Offering my-second-job to Project Build Discarder
+my-second-job accepted by Project Build Discarder
+Finished at Sat May 15 04:43:56 UTC 2021. 4ms
+Started at Sat May 15 05:43:56 UTC 2021
+Processing ansible-test
+Offering ansible-test to Project Build Discarder
+ansible-test accepted by Project Build Discarder
+Processing database
+Offering database to Project Build Discarder
+database accepted by Project Build Discarder
+Processing my-first-job
+Offering my-first-job to Project Build Discarder
+my-first-job accepted by Project Build Discarder
+Processing my-second-job
+Offering my-second-job to Project Build Discarder
+my-second-job accepted by Project Build Discarder
+Finished at Sat May 15 05:43:56 UTC 2021. 5ms
+Started at Sat May 15 09:47:23 UTC 2021
+Processing ansible-test
+Offering ansible-test to Project Build Discarder
+ansible-test accepted by Project Build Discarder
+Processing database
+Offering database to Project Build Discarder
+database accepted by Project Build Discarder
+Processing my-first-job
+Offering my-first-job to Project Build Discarder
+my-first-job accepted by Project Build Discarder
+Processing my-second-job
+Offering my-second-job to Project Build Discarder
+my-second-job accepted by Project Build Discarder
+Finished at Sat May 15 09:47:23 UTC 2021. 16ms
+Started at Sat May 15 10:47:23 UTC 2021
+Processing ansible-test
+Offering ansible-test to Project Build Discarder
+ansible-test accepted by Project Build Discarder
+Processing database
+Offering database to Project Build Discarder
+database accepted by Project Build Discarder
+Processing my-first-job
+Offering my-first-job to Project Build Discarder
+my-first-job accepted by Project Build Discarder
+Processing my-second-job
+Offering my-second-job to Project Build Discarder
+my-second-job accepted by Project Build Discarder
+Finished at Sat May 15 10:47:23 UTC 2021. 6ms
+Started at Sat May 15 11:47:23 UTC 2021
+Processing ansible-test
+Offering ansible-test to Project Build Discarder
+ansible-test accepted by Project Build Discarder
+Processing database
+Offering database to Project Build Discarder
+database accepted by Project Build Discarder
+Processing my-first-job
+Offering my-first-job to Project Build Discarder
+my-first-job accepted by Project Build Discarder
+Processing my-second-job
+Offering my-second-job to Project Build Discarder
+my-second-job accepted by Project Build Discarder
+Finished at Sat May 15 11:47:23 UTC 2021. 9ms

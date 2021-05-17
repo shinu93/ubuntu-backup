@@ -1,0 +1,7 @@
+Started by user [8mha:////4FbmycjeGWH2S99q3ptCnWY9CqIAcnH56lJ1TSTFaj6+AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZu/dLi1CL9xJTczDwAg9OS0cAAAAA=[0mshridhar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/my-first-job
+[my-first-job] $ /bin/sh -xe /tmp/jenkins1267191011282681264.sh
++ /tmp/script.sh shridhar chavan false
+if you want to see the name, please check the mark
+Finished: SUCCESS
